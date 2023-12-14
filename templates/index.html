@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekend Referee Registration</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weekend Referee Registration</h1>
+        <p class="p">Welcome to the Referee registration-form.<br> Please provide your name,id and subcounty 
+            information
+        </p>
+        <form id="registration-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="id_number">ID Number:</label>
+            <input type="text" id="id_number" required>
+            
+            <label for="sub_county">Sub-County:</label>
+            <input type="text" id="sub_county" required>
+            
+            <button type="submit">Register</button>        </form>
+
+        <div id="status"></div>
+        
+
+        <!-- Add a link to the weekend selection page -->
+        <a href="weekend_selection">Weekend Selection</a>
+        
+
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>

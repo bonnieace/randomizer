@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekend Selection</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weekend Selection</h1>
+        <form id="weekend-selection-form">
+            <label for="weekend_num">Select Weekend Number:</label>
+            <select id="weekend_num" name="weekend_num" required>
+                <option value="1">Weekend 1</option>
+                <option value="2">Weekend 2</option>
+                <option value="3">Weekend 3</option>
+            </select>
+            <button type="submit">Select Referee</button>
+        </form>
+        <div id="status"></div>
+        <div id="selected-referee"></div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
